@@ -354,18 +354,46 @@ if(day === 'Monday'){
 } else{
     console.log('Not a valid day')
 }
-*/
+
 
 3 + 4 //This is an expression
 1991 //This is an expression
 true && false && !false //This is an expression
 
 //This is an statement
-if(33>10){
+if(23>10){
     const str = '23 is bigger'; //This is an expression
 }
 
-console.log(`I'm ${2037-1991} years old`);
-//Hello this is a new comment
-//second new comment
-//comment from home computer
+const me = 'Jonas';
+console.log(`I'm ${2037-1991} years old ${me}`)
+
+
+const age = 23;
+//if else statement
+//age >= 18 ? console.log('I like to drink wine') : console.log('I like to drink water');
+
+const drink = age >= 18 ? 'wine' : 'water';
+console.log(drink);
+
+let drink2;
+if(age >= 18){
+    drink2 = 'wine';
+} else {
+    drink2 = 'water';
+}
+console.log(drink2);
+
+console.log(`I like to drink ${age >= 18 ? 'wine' : 'water'}`);
+
+
+//CODING CHALLENGE #4
+const bill = 430;
+const tip = bill >= 50 && bill <= 300 ? bill*0.15 : bill*0.20;
+let totalValue = bill + tip;
+
+console.log(`The bill was ${bill}, the tip was ${tip}, and the toal value ${totalValue}`);
+*/
+//Next video to watch is 30
+
+
