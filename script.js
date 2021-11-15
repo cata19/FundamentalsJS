@@ -395,5 +395,5 @@ let totalValue = bill + tip;
 console.log(`The bill was ${bill}, the tip was ${tip}, and the toal value ${totalValue}`);
 */
 //Next video to watch is 30
-
+//git pull to update work
 
